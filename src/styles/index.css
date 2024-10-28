@@ -12,13 +12,18 @@ body {
 /* Game container */
 .game {
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /* Game form */
 form {
-  background-color: #333;
-  padding: 20px;
+  
+  color: blue;
+  padding: 100px;
   border-radius: 10px;
+  margin: 100px;
+  
 }
 
 input {
@@ -37,12 +42,12 @@ button {
 }
 
 button.bg-blue-500 {
-  background-color: #007bff;
+  background-color: white;
   color: white;
 }
 
 button.bg-gray-200 {
-  background-color: #e2e2e2;
+  background-color: white;
 }
 
 button.text-warning {
@@ -76,10 +81,4 @@ button.text-warning {
   align-items: center;
 }
 
-.tile:focus {
-  outline: none;
-}
 
-.tile:hover {
-  background-color: #f0f0f0;
-}

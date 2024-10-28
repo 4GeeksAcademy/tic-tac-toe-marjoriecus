@@ -7,8 +7,8 @@ const Board = ({ tiles, onClick }) => {
   );
 
   return (
-    <div>
-      <div className="board-row">
+    <div className="justify-content">
+      <div className="board-row" >
         {renderTile(0)}
         {renderTile(1)}
         {renderTile(2)}

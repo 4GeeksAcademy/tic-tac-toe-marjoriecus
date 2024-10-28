@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Board from "./board";
 import CheckWinnerCombinations from "./winnercombinations";
 
+
 const TicTacToe = () => {
   const [tiles, setTiles] = useState(Array(9).fill(null));
   const [xIsNext, setXIsNext] = useState(true);
@@ -35,7 +36,7 @@ const TicTacToe = () => {
   return (
     <div className="game">
       {!gameStarted ? (
-        <form className="mb-4 bg-dark">
+        <form className="mb-4 bg-black flex" >
           <input
             type="text"
             placeholder="Player 1"
@@ -80,6 +81,7 @@ const TicTacToe = () => {
     </div>
   );
 };
+
 
 export default TicTacToe;
 
